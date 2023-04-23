@@ -157,8 +157,11 @@ img {
 /*=== LAYOUT ===*/
 .container {
   max-width: 768px;
+  width: 90%;
   margin-left: var(--mb-1-5);
   margin-right: var(--mb-1-5);
+  align-self: center;
+  justify-self: center;
 }
 
 .grid {
@@ -442,6 +445,12 @@ img {
 
 /* === Skills === */
 
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .skills__container {
   row-gap: 0;
 }
@@ -566,6 +575,8 @@ img {
   grid-template-columns: 1fr max-content 1fr;
   column-gap: 1.5rem;
 }
+
+.qualification__data:nth-child(odd) {justify-items: end;}
 
 .qualification__title {
   font-size: var(--normal-font-size);

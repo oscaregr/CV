@@ -178,6 +178,12 @@ img {
   background-color: var(--body-color);
 }
 
+.align_center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* === Nav === */
 .nav {
   max-width: 968px;
@@ -444,13 +450,6 @@ img {
 
 
 /* === Skills === */
-
-.skills {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .skills__container {
   row-gap: 0;
 }
@@ -548,12 +547,6 @@ img {
 }
 
 /* === Qualification === */
-.qualification {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -628,12 +621,6 @@ img {
 }
 
 /* ==Services== */
-.services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -734,7 +721,7 @@ img {
 
 /* ===  Portfolio === */
 .portfolio__container {
-  overflow: initial;
+  overflow:initial;
 }
 
 .portfolio__content {
@@ -766,16 +753,16 @@ img {
 }
 
 .swiper-portfolio-icon {
-  font-size: 2rem;
+  font-size: 3rem;
   color: var(--first-color);
 }
 
 .swiper-button-prev {
-  left: -.5rem;
+  left: -.8rem;
 }
 
 .swiper-button-next {
-  right: -.5rem;
+  right: -.8rem;
 }
 
 .swiper-horizontal > .swiper-pagination-bullets{
@@ -800,6 +787,9 @@ img {
 
 .project__bg {
   background-color: var(--first-color-second);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 3rem;
 }
 

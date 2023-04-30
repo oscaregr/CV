@@ -95,7 +95,6 @@ modalCloses.forEach((modalClose) => {
 
 let swiperPortfolio = new Swiper(".portfolio__container", {
     cssMode: true,
-    loop: true,
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -120,7 +119,7 @@ let swiperTestimonial= new Swiper(".testimonial__container", {
     },
     breakpoints: {
         568: {
-            slidesPerView: 2,
+            slidesPerView: 1.15,
         }
     }
 });
